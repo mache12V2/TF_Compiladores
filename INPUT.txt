@@ -1,0 +1,25 @@
+# Declaración de variables
+x = 10
+y::Float = 3.14
+mensaje = "Hola, mundo"
+
+# Función simple
+function sumar(a, b)
+    return a + b
+end
+
+# Uso de la función
+resultado = sumar(x, y)
+
+# Estructura condicional
+if resultado > 15
+    println("El resultado es mayor que 15")
+else
+    println("El resultado es 15 o menor")
+end
+
+# Bucle for
+for i in 1:5
+    println(i)
+end
+
