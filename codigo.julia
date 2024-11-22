@@ -1,0 +1,13 @@
+function factoriales_hasta_n(n::Int)
+    for i in 0:n
+        x = 1
+        
+        for j in 1:i
+            x = x * j
+        end
+        
+        println("Factorial de $i es: $x")
+    end
+end
+
+factoriales_hasta_n(5)
